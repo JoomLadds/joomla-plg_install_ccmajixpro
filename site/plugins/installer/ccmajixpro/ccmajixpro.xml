@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="installer" method="upgrade">
+	<name>plg_installer_ccmajixpro</name>
+	<author>Joomladds @ River Media</author>
+	<creationDate>August 2014</creationDate>
+	<copyright>Copyright (C) 2012-2014 River Media. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@joomladds.com</authorEmail>
+	<authorUrl>http://joomladds.com</authorUrl>
+	<version>1.0</version>
+	<description>Handle paid-for extension updates for JoomLadds.com extensions using Akeeba Release System</description>
+	<files>
+		<filename plugin="ccmajixpro">ccmajixpro.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>
