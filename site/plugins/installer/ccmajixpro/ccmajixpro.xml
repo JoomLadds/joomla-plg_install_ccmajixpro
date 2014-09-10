@@ -7,10 +7,14 @@
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>support@joomladds.com</authorEmail>
 	<authorUrl>http://joomladds.com</authorUrl>
-	<version>1.0</version>
+	<version>1.0.1</version>
 	<description>Handle paid-for extension updates for JoomLadds.com extensions using Akeeba Release System</description>
 	<files>
 		<filename plugin="ccmajixpro">ccmajixpro.php</filename>
 		<filename>index.html</filename>
 	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_installer_ccmajixpro.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_installer_ccmajixpro.sys.ini</language>
+	</languages>
 </extension>

@@ -62,13 +62,18 @@ class PlgInstallerCCMajixPro extends JPlugin
 		{
 			$apiParams		= new JRegistry($pluginSYSccapi->params);
 		}
+		else
+		{
+			JError::raiseWarning( 100, '<strong>\'Constant Contact Majic Pro Updater\':</strong> Please enable the Constant Contact API System Plugin\'.' );
+			return;
+		}
 
 		// assuming the download id provided by user is stored in extension params
 		// under the "update_dlid" key
+		
 		$update_dlid = $apiParams->get('update_dlid','');
 
-// !!! need to change BEFORE release '==' ...
-		if($update_dlid!='')
+		if($update_dlid=='')
 		{
 			JError::raiseWarning( 100, '<strong>\'Joomla Updater\':</strong> Please enter a valid Download ID in the \'Constant Contact API System Plugin\'.' );
 			return;
