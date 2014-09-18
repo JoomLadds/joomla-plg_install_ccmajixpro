@@ -44,7 +44,6 @@ class PlgInstallerCCMajixPro extends JPlugin
 	 */
 	public function onInstallerBeforePackageDownload(&$url, &$headers)
 	{
-
 		// are we trying to update our extension?
 		if (strpos($url, $this->baseUrl) !== 0)
 		{
@@ -64,7 +63,7 @@ class PlgInstallerCCMajixPro extends JPlugin
 		}
 		else
 		{
-			JError::raiseWarning( 100, '<strong>\'Constant Contact Majic Pro Updater\':</strong> Please enable the Constant Contact API System Plugin\'.' );
+			JError::raiseWarning( 100, '<strong>\'Constant Contact Signup Majix Pro Updater\':</strong> Please enable the Constant Contact API System Plugin\'.' );
 			return;
 		}
 
